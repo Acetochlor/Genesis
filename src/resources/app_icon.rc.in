@@ -1,0 +1,4 @@
+// Windows application icon. Embedded into Genesis.exe so the executable shows
+// the Genesis icon in Explorer, the taskbar, and Task Manager.
+// The path is filled in by CMake configure_file (@ONLY).
+IDI_ICON1 ICON "@GENESIS_ICON_PATH@"

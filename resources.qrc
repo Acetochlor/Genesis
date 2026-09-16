@@ -1,0 +1,8 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file alias="genesis-icon.png">picture/genesis-icon.png</file>
+        <file alias="Pin-opened.png">picture/Pin-opened.png</file>
+        <file alias="Pin-closed.png">picture/Pin-closed.png</file>
+    </qresource>
+</RCC>

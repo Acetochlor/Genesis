@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PATH=/c/Qt/Tools/CMake_64/bin:/c/Qt/Tools/Ninja:/c/Qt/Tools/mingw1310_64/bin:/c/Qt/6.11.1/mingw_64/bin:__TRACKED_VAR__ g++ -std=c++17 probe3.cpp ../../src/settings/BackgroundWidget.cpp ../../src/bookshelf/BookshelfView.cpp ../../src/bookshelf/IconButton.cpp ../../src/dialogs/FramelessDialog.cpp ../../src/titlebar/WindowButton.cpp ../../src/titlebar/TitleBar.cpp ../../src/library/Library.cpp ../CMakeFiles/Genesis.dir/Genesis_autogen/mocs_compilation.cpp.obj -o probe3.exe -IC:/Qt/6.11.1/mingw_64/include -IC:/Qt/6.11.1/mingw_64/include/QtWidgets -IC:/Qt/6.11.1/mingw_64/include/QtGui -IC:/Qt/6.11.1/mingw_64/include/QtCore -LC:/Qt/6.11.1/mingw_64/lib -lQt6Widgets -lQt6Gui -lQt6Core)",
+      "Bash(PATH=/c/Qt/Tools/CMake_64/bin:/c/Qt/Tools/Ninja:/c/Qt/Tools/mingw1310_64/bin:/c/Qt/6.11.1/mingw_64/bin:__TRACKED_VAR__ g++ -std=c++17 probe3.cpp ../../src/settings/BackgroundWidget.cpp ../../src/bookshelf/BookshelfView.cpp ../../src/bookshelf/IconButton.cpp ../../src/dialogs/FramelessDialog.cpp ../../src/titlebar/WindowButton.cpp ../../src/titlebar/TitleBar.cpp ../../src/library/Library.cpp ../../src/MainWindow.cpp ../../src/settings/BackgroundDialog.cpp ../CMakeFiles/Genesis.dir/Genesis_autogen/mocs_compilation.cpp.obj -o probe3.exe -IC:/Qt/6.11.1/mingw_64/include -IC:/Qt/6.11.1/mingw_64/include/QtWidgets -IC:/Qt/6.11.1/mingw_64/include/QtGui -IC:/Qt/6.11.1/mingw_64/include/QtCore -LC:/Qt/6.11.1/mingw_64/lib -lQt6Widgets -lQt6Gui -lQt6Core)",
+      "Read(//d/My Documents/**)",
+      "Bash(rm -rf \"d:/My Documents/Genesis-Development/build/probe\")",
+      "Bash(taskkill //F //IM probe3.exe)",
+      "Bash(taskkill //F //IM probe.exe)",
+      "Bash(taskkill //F //IM probe2.exe)",
+      "Bash(rm -rf \"Genesis-Development/build/probe\")",
+      "Bash(rmdir \"Genesis-Development/build/probe\")",
+      "Bash(ls \"C:/Qt/6.11.1/mingw_64/lib/cmake/\" | grep -i pdf; ls \"C:/Qt/6.11.1/mingw_64/bin/\" | grep -i pdf)",
+      "Read(//c/Qt/6.11.1/mingw_64/lib/cmake/**)",
+      "Read(//c/Qt/6.11.1/mingw_64/bin/**)",
+      "Bash(ls \"C:/Qt/6.11.1/mingw_64/lib/cmake/\" | head -40)",
+      "Bash(ls \"C:/Qt/6.11.1/mingw_64/lib/cmake/\" | grep -iE \"pdf|web\")",
+      "Read(//c/Qt/**)",
+      "Read(//c/Qt/6.11.1/**)",
+      "Bash(./MaintenanceTool.exe search *)",
+      "Bash(./MaintenanceTool.exe install *)",
+      "Bash(tail -8 \"C:\\\\Users\\\\xuchunbo5\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--My-Documents-Genesis-Development\\\\2043bfb4-ec66-4069-85ae-cf224448b8f7\\\\tasks\\\\bwrcls4hb.output\"; ls \"C:/Qt/6.11.1/mingw_64/lib/cmake/\" | grep -i pdf)",
+      "Read(//c/Users/xuchunbo5/AppData/Local/Temp/claude/**)",
+      "Bash(ls \"C:/Users/xuchunbo5/AppData/Local/Temp/claude/d--My-Documents-Genesis-Development/2043bfb4-ec66-4069-85ae-cf224448b8f7/tasks/\" 2>&1 | head; find /c/Users/xuchunbo5/AppData/Local/Temp/claude -name \"*.output\" -newer /c/Qt/components.xml 2>/dev/null | head -5)",
+      "Bash(tail -25 /c/Users/xuchunbo5/AppData/Local/Temp/claude/d--My-Documents-Genesis-Development/2043bfb4-ec66-4069-85ae-cf224448b8f7/tasks/bwrcls4hb.output)",
+      "Read(//c/Users/xuchunbo5/AppData/Local/Temp/claude/d--My-Documents-Genesis-Development/2043bfb4-ec66-4069-85ae-cf224448b8f7/tasks/**)",
+      "Bash(./MaintenanceTool.exe update *)",
+      "Bash(PATH=/c/Qt/6.11.1/mingw_64/bin:__TRACKED_VAR__ ldd 'd:/My Documents/Genesis-Development/build/bin/Genesis.exe')",
+      "Bash(ls \"C:/Qt/6.11.1/mingw_64/lib/cmake/\" | grep -i pdf; ls \"C:/Qt/6.11.1/mingw_64/include/\" | grep -i pdf)",
+      "Read(//c/Qt/6.11.1/mingw_64/include/**)"
+    ]
+  }
+}
